@@ -105,7 +105,8 @@ The examples available are the following:
 
 - [subdirs](examples/02-subdirs): OCaml code in `lib/` and `src/`
   subdirectories. See our [Source and build directories, module paths,
-  include paths](#intro-paths) introduction section for more details.
+  include paths](#intro-paths)
+  introduction section for more details.
 
 - [packages](examples/03-packages): a simple example of use of an
   OCamlfind package ([yojson](http://mjambon.com/yojson.html)) in an
@@ -416,7 +417,7 @@ you name it `mydoc.odocl` for example, you can then invoke
 which will produce the documentation in the subdirectory
 `mydoc.docdir`, thanks to a rule `"%.odocl -> %.docdir/index.html"`.
 
-## Source and build directories, module paths, include paths <a href="intro-paths"></a>
+## Source and build directories, module paths, include paths <a id="intro-paths"></a>
 
 The "source directories" that ocamlbuild will traverse to look for
 rule dependencies are a subset of the subdirectory tree rooted at the
